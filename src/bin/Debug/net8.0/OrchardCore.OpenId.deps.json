@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "OrchardCore.OpenId/2.0.4-preview": {
+      "OrchardCore.OpenId/2.0.5-preview": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "8.0.8",
           "Microsoft.CodeAnalysis.CSharp.CodeStyle": "4.11.0",
@@ -1672,7 +1672,7 @@
     }
   },
   "libraries": {
-    "OrchardCore.OpenId/2.0.4-preview": {
+    "OrchardCore.OpenId/2.0.5-preview": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

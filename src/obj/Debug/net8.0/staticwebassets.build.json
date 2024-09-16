@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NviMarF+/ZKpbnNK/+UT0AT6rmH8wpth5655eSRtGJE=",
+  "Hash": "X5csonwd1e1pSVOC9XOWHPr3pBjn+ab4rUUg8vLKqwM=",
   "Source": "CertPath.OrchardCore.OpenId",
   "BasePath": "_content/CertPath.OrchardCore.OpenId",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "CertPath.OrchardCore.OpenId\\wwwroot",
       "Source": "CertPath.OrchardCore.OpenId",
-      "ContentRoot": "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\src\\wwwroot\\",
       "BasePath": "_content/CertPath.OrchardCore.OpenId",
       "Pattern": "**"
     }

@@ -6191,7 +6191,7 @@
     "C:\\Users\\ktuba\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "2.0.4-preview",
+    "version": "2.0.5-preview",
     "restore": {
       "projectUniqueName": "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\src\\OrchardCore.OpenId.csproj",
       "projectName": "CertPath.OrchardCore.OpenId",

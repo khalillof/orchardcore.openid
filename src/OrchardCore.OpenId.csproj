@@ -14,7 +14,7 @@
     Provides OpenId Connect client, server and management features.</Description>
     <PackageTags>$(PackageTags) OrchardCoreCMS OpenId</PackageTags>
     <PackageId>CertPath.$(AssemblyName)</PackageId>
-    <Version>2.0.4-preview</Version>
+    <Version>2.0.5-preview</Version>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 	  <WarningsNotAsErrors>612,618</WarningsNotAsErrors>
 	  <NoWarn>$(NoWarn);CS1591</NoWarn>
@@ -25,7 +25,7 @@
     <Copyright>Orchard Core Community and Contributors</Copyright>
     <PackageProjectUrl>https://www.orchardcore.net/</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/OrchardCMS/OrchardCore</RepositoryUrl>
+    <RepositoryUrl>https://github.com/khalillof/orchardcore.openid</RepositoryUrl>
     <PackageReleaseNotes>add support to setting certificates by setting path property to recipe or configuration wich support both linux and windwos</PackageReleaseNotes>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <IncludeSymbols>True</IncludeSymbols>
