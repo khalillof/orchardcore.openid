@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CertPath.OrchardCore.OpenId</id>
+    <version>2.0.3-preview</version>
+    <title>OrchardCore OpenId CertPath</title>
+    <authors>Orchard Core Community and Contributors</authors>
+    <license type="expression">BSD-3-Clause</license>
+    <licenseUrl>https://licenses.nuget.org/BSD-3-Clause</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://www.orchardcore.net/</projectUrl>
+    <description>Provides OpenId Connect client, server and management features.</description>
+    <releaseNotes>add support to setting certificates by setting path property to recipe or configuration wich support both linux and windwos</releaseNotes>
+    <copyright>Orchard Core Community and Contributors</copyright>
+    <tags>OrchardCoreCMS OpenId</tags>
+    <repository type="git" url="https://github.com/OrchardCMS/OrchardCore" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Authentication.OpenIdConnect" version="8.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.Protocols.OpenIdConnect" version="8.0.2" exclude="Build,Analyzers" />
+        <dependency id="OpenIddict.Server.AspNetCore" version="5.8.0" exclude="Build,Analyzers" />
+        <dependency id="OpenIddict.Server.DataProtection" version="5.8.0" exclude="Build,Analyzers" />
+        <dependency id="OpenIddict.Validation.AspNetCore" version="5.8.0" exclude="Build,Analyzers" />
+        <dependency id="OpenIddict.Validation.DataProtection" version="5.8.0" exclude="Build,Analyzers" />
+        <dependency id="OpenIddict.Validation.SystemNetHttp" version="5.8.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Admin.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.ContentManagement.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Data.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Deployment.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.DisplayManagement" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Module.Targets" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Navigation.Core" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.OpenId.Core" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Recipes.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.ResourceManagement" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Users.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\ktuba\source\repos\OrchardCore.OpenId\bin\Debug\net8.0\OrchardCore.OpenId.pdb" target="lib\net8.0\OrchardCore.OpenId.pdb" />
+  </files>
+</package>

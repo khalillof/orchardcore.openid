@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+	  <RootNamespace>OrchardCore.OpenId</RootNamespace>
+	  <AssemblyName>OrchardCore.OpenId</AssemblyName>
+	  <TargetFramework>net8.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	 
+    <!-- NuGet properties-->
+    <Title>OrchardCore OpenId CertPath</Title>
+    <Description>$(OCCMSDescription)
+
+    Provides OpenId Connect client, server and management features.</Description>
+    <PackageTags>$(PackageTags) OrchardCoreCMS OpenId</PackageTags>
+    <PackageId>CertPath.$(AssemblyName)</PackageId>
+    <Version>2.0.4-preview</Version>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	  <WarningsNotAsErrors>612,618</WarningsNotAsErrors>
+	  <NoWarn>$(NoWarn);CS1591</NoWarn>
+	  <DebugType>portable</DebugType>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>obj\Debug\net8.0\OrchardCore.OpenId.xml</DocumentationFile>
+    <Authors>Orchard Core Community and Contributors</Authors>
+    <Copyright>Orchard Core Community and Contributors</Copyright>
+    <PackageProjectUrl>https://www.orchardcore.net/</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/OrchardCMS/OrchardCore</RepositoryUrl>
+    <PackageReleaseNotes>add support to setting certificates by setting path property to recipe or configuration wich support both linux and windwos</PackageReleaseNotes>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<!--This is used for Source Link -->
+		<PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" Version="8.0.0" />
+		<None Include="$(MSBuildThisFileDirectory)/nuget-icon.png">
+			<Pack>True</Pack>
+			<PackagePath>icon.png</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.CodeStyle" Version="4.11.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="StyleCop.Analyzers" PrivateAssets="all" Version="1.1.118" />
+	</ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Admin.Abstractions" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Data.Abstractions" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Deployment.Abstractions" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Navigation.Core" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.OpenId.Core" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Recipes.Abstractions" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="2.0.0" />
+    <PackageReference Include="OrchardCore.Users.Abstractions" Version="2.0.0" />
+
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.8" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.0.2" />
+    <PackageReference Include="OpenIddict.Server.AspNetCore" Version="5.8.0" />
+    <PackageReference Include="OpenIddict.Server.DataProtection" Version="5.8.0" />
+    <PackageReference Include="OpenIddict.Validation.AspNetCore" Version="5.8.0" />
+    <PackageReference Include="OpenIddict.Validation.DataProtection" Version="5.8.0" />
+    <PackageReference Include="OpenIddict.Validation.SystemNetHttp" Version="5.8.0" />
+  </ItemGroup>
+
+</Project>

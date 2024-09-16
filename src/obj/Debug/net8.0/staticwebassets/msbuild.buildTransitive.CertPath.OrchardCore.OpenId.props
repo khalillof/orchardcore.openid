@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CertPath.OrchardCore.OpenId.props" />
+</Project>

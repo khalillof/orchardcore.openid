@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\src\\OrchardCore.OpenId.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\src\\OrchardCore.OpenId.csproj": {
+      "version": "2.0.4-preview",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\src\\OrchardCore.OpenId.csproj",
+        "projectName": "CertPath.OrchardCore.OpenId",
+        "projectPath": "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\src\\OrchardCore.OpenId.csproj",
+        "packagesPath": "C:\\Users\\ktuba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ktuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.CodeStyle": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "OpenIddict.Server.AspNetCore": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "OpenIddict.Server.DataProtection": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "OpenIddict.Validation.AspNetCore": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "OpenIddict.Validation.DataProtection": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "OpenIddict.Validation.SystemNetHttp": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "OrchardCore.Admin.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.ContentManagement.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.Data.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.Deployment.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.Navigation.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.OpenId.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.Recipes.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.ResourceManagement": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OrchardCore.Users.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

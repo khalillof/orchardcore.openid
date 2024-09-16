@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "NviMarF+/ZKpbnNK/+UT0AT6rmH8wpth5655eSRtGJE=",
+  "Source": "CertPath.OrchardCore.OpenId",
+  "BasePath": "_content/CertPath.OrchardCore.OpenId",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CertPath.OrchardCore.OpenId\\wwwroot",
+      "Source": "CertPath.OrchardCore.OpenId",
+      "ContentRoot": "C:\\Users\\ktuba\\source\\repos\\OrchardCore.OpenId\\wwwroot\\",
+      "BasePath": "_content/CertPath.OrchardCore.OpenId",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
