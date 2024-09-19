@@ -20,7 +20,7 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore src/OrchardCore.OpenId
       - name: Build
-        run: dotnet build src --configuration Release --no-restore
+        run: dotnet build src/OrchardCore.OpenId --configuration Release --no-restore
       - name: Pack
         run: dotnet pack src/OrchardCore.OpenId/OrchardCore.OpenId.csproj --configuration Release --output ./nupkg
       - name: Publish to NuGet
