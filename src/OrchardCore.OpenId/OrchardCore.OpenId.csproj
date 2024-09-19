@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+	  <RootNamespace>OrchardCore.OpenId</RootNamespace>
+	  <AssemblyName>OrchardCore.OpenId</AssemblyName>
+	  <TargetFramework>net8.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+
+    <!-- NuGet properties-->
+    <Title>OrchardCore OpenId CertPath</Title>
+    <Description>$(OCCMSDescription)
+
+    Provides OpenId Connect client, server and management features.</Description>
+
+    <PackageId>CertPath.$(AssemblyName)</PackageId>
+
+  </PropertyGroup>
+
+	<Import Project="..\..\extra.props" />
+	<Import Project="..\..\Build.props" />
+	
+	
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="OrchardCore.Admin.Abstractions" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.Data.Abstractions" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.Deployment.Abstractions" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.DisplayManagement" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.Module.Targets" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.Navigation.Core" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.OpenId.Core" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.Recipes.Abstractions" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.ResourceManagement" Version="2.0.0" />
+		<PackageReference Include="OrchardCore.Users.Abstractions" Version="2.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.8" />
+		<PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.0.2" />
+		<PackageReference Include="OpenIddict.Server.AspNetCore" Version="5.8.0" />
+		<PackageReference Include="OpenIddict.Server.DataProtection" Version="5.8.0" />
+		<PackageReference Include="OpenIddict.Validation.AspNetCore" Version="5.8.0" />
+		<PackageReference Include="OpenIddict.Validation.DataProtection" Version="5.8.0" />
+		<PackageReference Include="OpenIddict.Validation.SystemNetHttp" Version="5.8.0" />
+	</ItemGroup>
+
+</Project>

@@ -18,11 +18,11 @@ jobs:
         with:
           dotnet-version: '8.x.x'
       - name: Restore dependencies
-        run: dotnet restore src
+        run: dotnet restore src/OrchardCore.OpenId
       - name: Build
         run: dotnet build src --configuration Release --no-restore
       - name: Pack
-        run: dotnet pack src/OrchardCore.OpenId.csproj --configuration Release --output ./nupkg
+        run: dotnet pack src/OrchardCore.OpenId/OrchardCore.OpenId.csproj --configuration Release --output ./nupkg
       - name: Publish to NuGet
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
